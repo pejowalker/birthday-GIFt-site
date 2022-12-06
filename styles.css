@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    background: linear-gradient(#FCA7A5, #5A3E79);
+    color: #130329;
+}
+
+#bff-img, #bday-age {
+    text-shadow: 0 0 1.2px white;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #A76286;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #A76286;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #A76286;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-new {
+    height: 200px;
+    max-width: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #130329;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-ball:hover {
+    background-image: url("images/ball.gif");
+}
+
+#gift-img-dual:hover {
+    background-image: url("images/dual.gif");
+}
+
+#gift-img-resilient:hover {
+    background-image: url("images/resilient.gif");
+}
+
+#gift-img-morrison:hover {
+    background-image: url("images/morrison.gif");
+}
+
+#gift-img-new:hover {
+    background-image: url("images/new.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
